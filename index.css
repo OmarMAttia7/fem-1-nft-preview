@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    color: #fff;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    margin: 1em 1em;
+    padding: 1em;
+}
+
+@media (min-width: 500px) {
+    #nft-showcase {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main {
+        padding: 0 10%;
+    }
+}
