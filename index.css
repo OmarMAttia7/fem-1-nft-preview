@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 18px;
+}
 body {
     margin: 0;
     background-color: hsl(217, 54%, 11%);
@@ -18,7 +21,7 @@ body {
     margin: 1em 1.6em;
     padding: 1.6em 1em;
     box-shadow: 0 0 1em hsl(218, 55%, 9%);
-    border-radius: 15px;
+    border-radius: 0.5rem;
     color: hsl(215, 51%, 70%);
     line-height: 1.6em;
     max-width: 350px;
@@ -33,15 +36,17 @@ body {
     color: hsl(178, 100%, 50%);
 }
 
-h3 {
+h1 {
     font-weight: 600;
+    font-size: 1.25rem;
     color: #fff;
-    margin: 0.625em 0;
+    margin: 1rem 0;
     cursor: pointer;
 }
 
 p {
     margin: 0.625em 0;
+    font-size: 1rem;
 }
 
 .card .card-info {
@@ -99,7 +104,7 @@ p {
 
 .card .card-img-preview > img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     height: 100%;
     position: absolute;
     top: 0;
@@ -116,7 +121,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     opacity: 0;
     transition: opacity 0.2s;
 }
