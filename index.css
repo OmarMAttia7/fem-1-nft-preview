@@ -70,26 +70,26 @@ p {
     margin: 1em 0;
 }
 
-.card .author {
+.card figure {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.card .author img {
+.card figure img {
     width: 2em;
     border: 1px solid #fff;
     border-radius: 50%;
     margin-right: 0.625em;
 }
 
-.card .author p {
+.card figure p {
     margin: 0;
 }
 
-.card .author figure {margin: 0; padding: 0;}
+.card figure {margin: 0; padding: 0;}
 
-.card .author figcaption {
+.card figure figcaption {
     display: flex;
     align-items: center;
 }
